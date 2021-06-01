@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
@@ -23,5 +24,16 @@ public class Player : MonoBehaviour
             position = spawn;
             isDead = false;
         }
+    }
+
+    public void OnMove(InputValue input)
+    {
+
+    }
+
+    public void OnJump()
+    {
+        //check if character is on the ground
+        position.y += 1;
     }
 }
