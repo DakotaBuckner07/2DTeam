@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     float xMovement = 0f;
     bool jump = false;
-
+    
     void Update()
     {
         xMovement = Input.GetAxisRaw("Horizontal") * runSpeed;
