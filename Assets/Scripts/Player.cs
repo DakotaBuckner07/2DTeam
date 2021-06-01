@@ -6,13 +6,12 @@ public class Player : MonoBehaviour
 {
     public Transform start;
     private Vector2 spawn;
-    private Vector2 position;
     private bool isDead = false;
     void Start()
     {
         spawn.x = start.position.x;
-        spawn.y = start.position.y + 4;
-        position = spawn;
+        spawn.y = start.position.y + .25f;
+        transform.position = spawn;
     }
 
     // Update is called once per frame
@@ -20,7 +19,7 @@ public class Player : MonoBehaviour
     {
         if (isDead)
         {
-            position = spawn;
+            transform.position = spawn;
             isDead = false;
         }
     }

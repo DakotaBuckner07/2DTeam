@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //public CharacterController2D controller;
+    public CharacterController2D controller;
     //public Animator anim;
 
     [Range(0,100)]public float runSpeed = 40f;
@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        //controller.Move(xMovement * Time.fixedDeltaTime, jump);
+        controller.Move(xMovement * Time.fixedDeltaTime, jump);
         if(jump)
         {
             //anim.SetTrigger("Jump");   
