@@ -5,11 +5,11 @@ public class CharacterController2D : MonoBehaviour
 {
     #region properties and feilds
     [SerializeField] private float m_JumpForce = 400f;
-	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;	
-	[SerializeField] private bool m_AirControl = false;							
+	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;
+	[SerializeField] private bool m_AirControl = false;
 	[SerializeField] private LayerMask m_WhatIsGround;
 	[SerializeField] private Transform m_GroundCheck;
-	[SerializeField] private Transform m_CeilingCheck;				
+	[SerializeField] private Transform m_CeilingCheck;
 
 	const float k_GroundedRadius = .2f;
 	private bool m_Grounded;

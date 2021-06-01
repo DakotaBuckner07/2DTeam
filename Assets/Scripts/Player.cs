@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         spawn.x = start.position.x;
-        spawn.y = start.position.y + .25f;
+        spawn.y = start.position.y + 1f;
         transform.position = spawn;
     }
 
