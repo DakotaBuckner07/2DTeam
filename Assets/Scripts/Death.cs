@@ -10,6 +10,7 @@ public class Death : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<Player>().isDead = true;
+            gameObject.GetComponent<AudioSource>().Play();
         }
     }
 }
