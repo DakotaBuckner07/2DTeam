@@ -6,6 +6,7 @@ public class Completion : MonoBehaviour
 {
     public Collider2D coll;
     bool finished = false;
+    float delay = 2.0f;
 
     void Start()
     {
@@ -22,7 +23,15 @@ public class Completion : MonoBehaviour
 
     void Update()
     {
-        if(finished) GameController.Instance.OnLoadMenuScene("MainMenu", "Select");
+        
+        if(finished)
+        {
+            delay -= Time.deltaTime;
+            if(delay < 0)
+            {
+                GameController.Instance.OnLoadMenuScene("MainMenu", "Select");
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
