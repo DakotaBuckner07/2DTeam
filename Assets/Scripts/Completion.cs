@@ -4,25 +4,21 @@ using UnityEngine;
 
 public class Completion : MonoBehaviour
 {
-    public Collider2D coll;
     bool finished = false;
-
-    void Start()
-    {
-        //Check if the isTrigger option on th Collider2D is set to true or false
-        if (coll.isTrigger)
-        {
-            Debug.Log("This Collider2D can be triggered");
-        }
-        else if (!coll.isTrigger)
-        {
-            Debug.Log("This Collider2D cannot be triggered");
-        }
-    }
+    float delay = 3.2f;
 
     void Update()
     {
-        if(finished) GameController.Instance.OnLoadMenuScene("MainMenu", "Select");
+        
+        if(finished)
+        {
+            delay -= Time.deltaTime;
+            if(delay < 0)
+            {
+                GameController.Instance.screen = "Select";
+                GameController.Instance.OnLoadMenuScene("MainMenu");
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
