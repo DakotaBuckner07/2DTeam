@@ -13,6 +13,8 @@ public class GameController : MonoBehaviour
     public GameObject levelSelectScreen;
     public TextMeshProUGUI ScoreUI;
 
+    public string screen = "Title";
+
     public AudioMixer audioMixer;
 
     public int highScore = 0;   
@@ -30,6 +32,25 @@ public class GameController : MonoBehaviour
         DontDestroyOnLoad(this);
     }
 
+    private void Update()
+    {
+        switch (screen)
+        {
+            case "Select":
+                OnSelectScreen();
+                break;
+            case "Title":
+                OnTitleScreen();
+                break;
+            case "Options":
+                OnOptionsScreen();
+                break;
+            case "Pause":
+                OnPauseScreen();
+                break;
+        }
+    }
+
     void Start()
     {
         titleScreen.SetActive(true);
@@ -44,25 +65,6 @@ public class GameController : MonoBehaviour
         Cursor.visible = false;
 
         StartCoroutine(LoadGameScene(sceneString));
-    }
-    public void OnLoadMenuScene(string sceneString, string menuString)
-    {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-
-        StartCoroutine(LoadMenuScene(sceneString));
-        switch (menuString)
-        {
-            case "Select":
-                OnSelectScreen();
-                break;
-            case "Options":
-                OnOptionsScreen();
-                break;
-            case "Pause":
-                OnPauseScreen();
-                break;
-        }
     }
 
     IEnumerator LoadGameScene(string sceneString)
@@ -91,6 +93,7 @@ public class GameController : MonoBehaviour
 
     public void OnTitleScreen()
     {
+        screen = "Title";
         titleScreen.SetActive(true);
         optionsScreen.SetActive(false);
         levelSelectScreen.SetActive(false);
@@ -98,6 +101,7 @@ public class GameController : MonoBehaviour
 
     public void OnSelectScreen()
     {
+        screen = "Select";
         titleScreen.SetActive(false);
         optionsScreen.SetActive(false);
         levelSelectScreen.SetActive(true);
@@ -106,6 +110,7 @@ public class GameController : MonoBehaviour
 
     public void OnOptionsScreen()
     {
+        screen = "Options";
         titleScreen.SetActive(false);
         optionsScreen.SetActive(true); 
         levelSelectScreen.SetActive(false);
