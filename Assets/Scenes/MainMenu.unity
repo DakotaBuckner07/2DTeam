@@ -213,19 +213,11 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7852412}
-        m_TargetAssemblyTypeName: SelectVolumn, Assembly-CSharp
-        m_MethodName: SetLevel
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: [{m_Target: {fileID: 7852412}, m_TargetAssemblyTypeName: 'SelectVolumn,
+            Assembly-CSharp', m_MethodName: SetLevel, m_Mode: 0, m_Arguments: {m_ObjectArgument: {
+              fileID: 0}, m_ObjectArgumentAssemblyTypeName: 'UnityEngine.Object, UnityEngine',
+            m_IntArgument: 0, m_FloatArgument: 0, m_StringArgument: '', m_BoolArgument: 0},
+          m_CallState: 2}]
 --- !u!114 &7852412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,7 +264,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -347,7 +339,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -494,7 +486,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -954,7 +946,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &828361674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,19 +1112,11 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 926132124}
-        m_TargetAssemblyTypeName: SelectVolumn, Assembly-CSharp
-        m_MethodName: SetLevel
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: [{m_Target: {fileID: 926132124}, m_TargetAssemblyTypeName: 'SelectVolumn,
+            Assembly-CSharp', m_MethodName: SetLevel, m_Mode: 0, m_Arguments: {m_ObjectArgument: {
+              fileID: 0}, m_ObjectArgumentAssemblyTypeName: 'UnityEngine.Object, UnityEngine',
+            m_IntArgument: 0, m_FloatArgument: 0, m_StringArgument: '', m_BoolArgument: 0},
+          m_CallState: 2}]
 --- !u!114 &926132124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1179,7 +1163,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1494,7 +1478,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1634,7 +1618,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1935746524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1808,19 +1792,11 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2081485611}
-        m_TargetAssemblyTypeName: SelectVolumn, Assembly-CSharp
-        m_MethodName: SetLevel
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: [{m_Target: {fileID: 2081485611}, m_TargetAssemblyTypeName: 'SelectVolumn,
+            Assembly-CSharp', m_MethodName: SetLevel, m_Mode: 0, m_Arguments: {m_ObjectArgument: {
+              fileID: 0}, m_ObjectArgumentAssemblyTypeName: 'UnityEngine.Object, UnityEngine',
+            m_IntArgument: 0, m_FloatArgument: 0, m_StringArgument: '', m_BoolArgument: 0},
+          m_CallState: 2}]
 --- !u!114 &2081485611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1867,7 +1843,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2233,7 +2209,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1602669473202705623, guid: 84e73c5fcbc3d324a9bebf3715abc565, type: 3}
+  m_Sprite: {fileID: 1602669473202705623, guid: 84e73c5fcbc3d324a9bebf3715abc565,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2685,7 +2662,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6346164034597705212, guid: 0b35535918bf72f4a9f6d0311709b8a2, type: 3}
+  m_Sprite: {fileID: -6346164034597705212, guid: 0b35535918bf72f4a9f6d0311709b8a2,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2827,7 +2805,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6676564034453352251, guid: 84e73c5fcbc3d324a9bebf3715abc565, type: 3}
+  m_Sprite: {fileID: -6676564034453352251, guid: 84e73c5fcbc3d324a9bebf3715abc565,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3471,7 +3450,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1195877170302790509, guid: e3531be27cb827743bac8ea66dae5bfd, type: 3}
+  m_Sprite: {fileID: -1195877170302790509, guid: e3531be27cb827743bac8ea66dae5bfd,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3583,7 +3563,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1847056366180053114, guid: 84e73c5fcbc3d324a9bebf3715abc565, type: 3}
+  m_Sprite: {fileID: -1847056366180053114, guid: 84e73c5fcbc3d324a9bebf3715abc565,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4259,7 +4240,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2381331627078710247, guid: 84e73c5fcbc3d324a9bebf3715abc565, type: 3}
+  m_Sprite: {fileID: 2381331627078710247, guid: 84e73c5fcbc3d324a9bebf3715abc565,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4930,7 +4912,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8480664182131228983, guid: 0b4768f2ab470f44ca33fa59836a0774, type: 3}
+  m_Sprite: {fileID: 8480664182131228983, guid: 0b4768f2ab470f44ca33fa59836a0774,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5331,7 +5314,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6399160422559601057, guid: 84e73c5fcbc3d324a9bebf3715abc565, type: 3}
+  m_Sprite: {fileID: 6399160422559601057, guid: 84e73c5fcbc3d324a9bebf3715abc565,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5370,7 +5354,8 @@ AudioSource:
   m_GameObject: {fileID: 8437874605504438131}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -1834092728563006878, guid: 63a9d52b5710b344080dbfb31084365f, type: 2}
+  OutputAudioMixerGroup: {fileID: -1834092728563006878, guid: 63a9d52b5710b344080dbfb31084365f,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 7d002e352910c954ea461dc190a205d9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -5694,7 +5679,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6399027368534209264, guid: 6800e71ba0f7fb540975b565c43a1930, type: 3}
+  m_Sprite: {fileID: -6399027368534209264, guid: 6800e71ba0f7fb540975b565c43a1930,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5886,7 +5872,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8480664182131228983, guid: b234dd527243d1042a19b2cf7ef17cd7, type: 3}
+  m_Sprite: {fileID: 8480664182131228983, guid: b234dd527243d1042a19b2cf7ef17cd7,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

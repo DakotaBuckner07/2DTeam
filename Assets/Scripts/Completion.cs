@@ -22,8 +22,7 @@ public class Completion : MonoBehaviour
 
     void Update()
     {
-        if(finished) GameController.Instance.OnLoadMenuScene("MainMenu");
-        GameController.Instance.OnSelectScreen();
+        if(finished) GameController.Instance.OnLoadMenuScene("MainMenu", "Select");
     }
 
     private void OnTriggerEnter2D(Collider2D other)
