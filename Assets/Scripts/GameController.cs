@@ -64,8 +64,8 @@ public class GameController : MonoBehaviour
 
     IEnumerator LoadMenuScene(string sceneString)
     {
-        titleScreen.SetActive(true);
         SceneManager.LoadScene(sceneString);
+        titleScreen.SetActive(true);
 
         yield return null;
     }
