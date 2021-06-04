@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1745925200}
     m_Modifications:
+    - target: {fileID: 695684695, guid: a8793b32d2166ae4cbc8e5c68792d02d, type: 3}
+      propertyPath: RockHead
+      value: 
+      objectReference: {fileID: 513244814}
     - target: {fileID: 8606962937016734618, guid: a8793b32d2166ae4cbc8e5c68792d02d, type: 3}
       propertyPath: m_Name
       value: RockHead
@@ -395,6 +399,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3582982745246959319, guid: 27e6bf8249979b046a632145f215c9eb, type: 3}
   m_PrefabInstance: {fileID: 1127974655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &513244814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8606962937016734618, guid: a8793b32d2166ae4cbc8e5c68792d02d, type: 3}
+  m_PrefabInstance: {fileID: 86782213}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &595517149
 PrefabInstance:
