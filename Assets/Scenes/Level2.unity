@@ -3838,10 +3838,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8567453313084926242, guid: b8f23958b6d53e24d805de660e973bd0, type: 3}
+      propertyPath: m_JumpForce
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 8567453313084926245, guid: b8f23958b6d53e24d805de660e973bd0, type: 3}
       propertyPath: start
       value: 
       objectReference: {fileID: 1921775030}
+    - target: {fileID: 8567453313084926246, guid: b8f23958b6d53e24d805de660e973bd0, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8567453313084926264, guid: b8f23958b6d53e24d805de660e973bd0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.109248
