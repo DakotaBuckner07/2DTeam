@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     public GameObject titleScreen;
     public GameObject optionsScreen;
     public GameObject pauseScreen;
+    public GameObject levelSelectScreen;
     public TextMeshProUGUI ScoreUI;
 
     public AudioMixer audioMixer;
@@ -73,12 +74,22 @@ public class GameController : MonoBehaviour
     {
         titleScreen.SetActive(true);
         optionsScreen.SetActive(false);
+        levelSelectScreen.SetActive(false);
+    }
+
+    public void OnSelectScreen()
+    {
+        titleScreen.SetActive(false);
+        optionsScreen.SetActive(false);
+        levelSelectScreen.SetActive(true);
+
     }
 
     public void OnOptionsScreen()
     {
         titleScreen.SetActive(false);
         optionsScreen.SetActive(true); 
+        levelSelectScreen.SetActive(false);
     }
 
     public void OnPauseScreen()
