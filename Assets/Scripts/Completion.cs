@@ -22,7 +22,8 @@ public class Completion : MonoBehaviour
 
     void Update()
     {
-        if(finished) GameController.Instance.OnLoadMenuScene("LevelSelect");
+        if(finished) GameController.Instance.OnLoadMenuScene("MainMenu");
+        GameController.Instance.OnSelectScreen();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -32,6 +33,7 @@ public class Completion : MonoBehaviour
         {
             Debug.Log("You know i dont get executed.");
             finished = true;
+            gameObject.GetComponent<AudioSource>().Play();
         }
     }
 }
