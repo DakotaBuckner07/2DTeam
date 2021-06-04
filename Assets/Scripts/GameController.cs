@@ -45,6 +45,25 @@ public class GameController : MonoBehaviour
 
         StartCoroutine(LoadGameScene(sceneString));
     }
+    public void OnLoadMenuScene(string sceneString, string menuString)
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        StartCoroutine(LoadMenuScene(sceneString));
+        switch (menuString)
+        {
+            case "Select":
+                OnSelectScreen();
+                break;
+            case "Options":
+                OnOptionsScreen();
+                break;
+            case "Pause":
+                OnPauseScreen();
+                break;
+        }
+    }
 
     IEnumerator LoadGameScene(string sceneString)
     {
