@@ -5,8 +5,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public Transform start;
+    public bool isDead = false;
     private Vector2 spawn;
-    private bool isDead = false;
+
     void Start()
     {
         spawn.x = start.position.x;
