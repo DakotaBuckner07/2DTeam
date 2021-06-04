@@ -6185,7 +6185,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8606962937016734618, guid: a8793b32d2166ae4cbc8e5c68792d02d, type: 3}
       propertyPath: m_Name
-      value: Idle
+      value: RockHead
       objectReference: {fileID: 0}
     - target: {fileID: 8606962937016734619, guid: a8793b32d2166ae4cbc8e5c68792d02d, type: 3}
       propertyPath: m_LocalPosition.x
