@@ -813,10 +813,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8567453313084926242, guid: b8f23958b6d53e24d805de660e973bd0, type: 3}
+      propertyPath: m_JumpForce
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 8567453313084926245, guid: b8f23958b6d53e24d805de660e973bd0, type: 3}
       propertyPath: start
       value: 
       objectReference: {fileID: 340116233}
+    - target: {fileID: 8567453313084926246, guid: b8f23958b6d53e24d805de660e973bd0, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8567453313084926264, guid: b8f23958b6d53e24d805de660e973bd0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.18
@@ -874,6 +882,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 329350076}
     m_Modifications:
+    - target: {fileID: 695684695, guid: a8793b32d2166ae4cbc8e5c68792d02d, type: 3}
+      propertyPath: RockHead
+      value: 
+      objectReference: {fileID: 8606962937507241761}
     - target: {fileID: 8606962937016734618, guid: a8793b32d2166ae4cbc8e5c68792d02d, type: 3}
       propertyPath: m_Name
       value: RockHead
@@ -924,6 +936,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8793b32d2166ae4cbc8e5c68792d02d, type: 3}
+--- !u!1 &8606962937507241761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8606962937016734618, guid: a8793b32d2166ae4cbc8e5c68792d02d, type: 3}
+  m_PrefabInstance: {fileID: 8606962937507241760}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9144117349152948763
 PrefabInstance:
   m_ObjectHideFlags: 0
